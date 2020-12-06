@@ -10,9 +10,31 @@
     </head>
     <body>
         <h1>Take Care</h1>
-        <h2>Take Care helps you track your self-care activities.</h2>
+        <h3><i>Take Care</i> helps you track your self-care activities.</h3>
         <p>Personalize your list of self-care activities, create daily and weekly goals, and set reminders to help you stay on your path.</p>
         
+        <div class="categories">
+            <table id="exercise"></table>
+            <table id="sleep"></table>
+            <table id="nutrition"></table>
+            <table id="recreation"></table>
+            <table id="activities"></table>
+            <table id="custom"></table>
+        </div>
+
+        <div class="goals">
+            <input id="set-goal" type="text">
+            <button>Submit</button>
+            <div>
+                <p></p>
+                Completed <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="notifications"></div>
+
+        <div class="progress"></div>
+
         <script src="app.js" async defer></script>
     </body>
 </html>
